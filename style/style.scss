@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(229, 215, 215);
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.form {
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 2px 5px 16px 0px #0B325E;
+}
+
+.grocery {
+    margin-top: 20px;
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    color: rgb(9, 9, 100);
+    font-size: 36px;
+    margin-top: 30px;
+    letter-spacing: 3px;
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: rgb(244, 232, 232);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+    padding-left: 20px;
+    color: rgb(85, 82, 82);
+}
+
+.btn {
+    height: 30px;
+    width: 50px;
+    border: none;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(109, 109, 248);
+    color: rgb(242, 229, 205);
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.clear {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(245, 142, 142);
+    letter-spacing: 5px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+i.fa {
+    font-size: 10px;
+    color: rgb(236, 87, 87);
+    cursor: pointer;
+}
+
+i.fa-icon {
+    font-size: 10px;
+    color: rgb(104, 240, 104);
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.item {
+    color: rgb(9, 9, 100);
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    list-style: none;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.element-edit {
+    display: none;
+
+    .btn {
+        color: rgb(109, 109, 248);
+        background-color: white;
+        height: 18px;
+    }
+
+    .element-input {
+        outline: none;
+        border: none;
+        color: rgb(9, 9, 100);
+        letter-spacing: 3px;
+        font-size: 16px;
+    }
+}
+
+.icons {
+    min-width: 50px;
+}
+
+.element-item.edit {
+    .element-view {
+        display: none;
+    }
+
+    .element-edit {
+        display: block;
+        display: flex;
+    }
+}
+
+.icons-btn {
+    border: none;
+    outline: none;
+    background-color: white;
+}
